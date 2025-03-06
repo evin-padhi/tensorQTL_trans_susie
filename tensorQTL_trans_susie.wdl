@@ -11,7 +11,7 @@ task tensorqtl_trans {
     
     Float maf_threshold
     Float? fdr
-
+    Float max_effects
     Int memory
     Int disk_space
     Int num_threads
