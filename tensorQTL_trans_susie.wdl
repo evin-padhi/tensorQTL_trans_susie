@@ -25,7 +25,7 @@ task tensorqtl_trans {
             $plink_base ${phenotype_bed} ${prefix} \
             --mode trans_susie \
             --covariates ${covariates} \
-            --susie_loci {susie_loci}\
+            --susie_loci {susie_loci} \
             ${"--fdr " + fdr} \
             ${"--max_effects " + max_effects} 
     }
